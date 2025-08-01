@@ -43,10 +43,7 @@ Clone repository
 bashgit clone https://github.com/username/Growing.git
 cd aplikasi-catatan
 
-Setup Database
-Buat database MySQL dan jalankan query berikut:
-sqlCREATE DATABASE learning_notes_db;
-USE learning_notes_db;
+import database.sql
 
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
